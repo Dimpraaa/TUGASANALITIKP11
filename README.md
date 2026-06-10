@@ -2,7 +2,7 @@
 
 Aplikasi web berbasis **Laravel** untuk memprediksi probabilitas kelulusan tepat waktu seorang mahasiswa berdasarkan riwayat data akademik (Data Training). Proyek ini merupakan implementasi nyata dari teknik *Data Mining* dan *Machine Learning* untuk mengklasifikasikan data.
 
-## 🚀 Fitur Utama (Multi-Algoritma)
+## Fitur Utama (Multi-Algoritma)
 
 Sistem ini tidak hanya menggunakan satu model, melainkan membandingkan **3 Algoritma Klasifikasi** sekaligus yang bisa dipilih secara dinamis oleh pengguna:
 
@@ -13,13 +13,13 @@ Sistem ini tidak hanya menggunakan satu model, melainkan membandingkan **3 Algor
 3. **Decision Tree (Pohon Keputusan - Information Gain/Entropy)**
    Algoritma yang membangun pohon keputusan secara otomatis dari seluruh data *training* yang ada. Sistem menelusuri ranting-ranting logika (*Rules/If-Then*) dari kondisi IPK, Kehadiran, SKS, dan Status Kerja untuk mencapai kesimpulan akhir.
 
-## 💻 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 - **Framework:** Laravel 11.x (PHP 8.x)
 - **Frontend:** Bootstrap 5 (Responsive Layout)
 - **Database:** MySQL / SQLite
 - **Alerts:** SweetAlert2 (untuk pop-up interaktif hasil prediksi)
 
-## ⚙️ Cara Menjalankan Project
+## Cara Menjalankan Project
 
 1. Pastikan Anda telah menginstal PHP, Composer, dan *database server* (seperti MySQL/Laragon/XAMPP).
 2. Lakukan *clone repository* ini:
